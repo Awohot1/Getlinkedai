@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GetLinked | Register</title>
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/assets/styles/main.css">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="/assets/styles/style.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/046080561d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header class="relative z-10 border-b-2 border-b-white border-opacity-20">
+    <!-- NAV SECTION -->
+    <nav class="container-1 mx-auto flex justify-between items-center py-3 px-4">
+      <div>
+        <a href="index.html" class="text-white font-bold text-xl lg:text-2xl font-sans">get<span
+            class="text-clr-secondary">linked</span>
+        </a>
+      </div>
+      <div class="">
+        <ul class="hidden lg:flex items-center space-x-6 gap-7">
+          <li><a class=" hover:text-clr-primary ease-in duration-200" href="#timeline">Timeline</a></li>
+          <li><a class=" hover:text-clr-primary ease-in duration-200" href="">Overview</a></li>
+          <li><a class=" hover:text-clr-primary ease-in duration-200" href="#help">FAQs</a></li>
+          <li><a class=" hover:text-clr-primary ease-in duration-200" href="contact.html">Contact</a></li>
+
+
+          <li><a href="register.html" class="btn-primary reg-btn relative bg-clr-bg-primary">Register</a>
+          </li>
+        </ul>
+
+      </div>
+      <div id="menu-bar" class=" lg:hidden cursor-pointer">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </nav>
+    <div id="menu-items" class="hidden bg-clr-bg-primary mb-2">
+
+      <ul class=" block text-center">
+        <li class="menu-link mb-4"><a class=" hover:text-clr-primary ease-in duration-200 "
+            href="#timeline">Timeline</a></li>
+        <li class="menu-link mb-4"><a class=" hover:text-clr-primary ease-in duration-200 " href="">Overview</a></li>
+        <li class="menu-link mb-4"><a class=" hover:text-clr-primary ease-in duration-200 " href="#help">FAQs</a></li>
+        <li class="menu-link mb-4 "><a class=" hover:text-clr-primary ease-in duration-200 "
+            href="contact.html">Contact</a>
+        </li>
+
+        <li class=""><button class="menu-link btn  btn-primary">
+            <a href="register.html">Register</a>
+          </button></li>
+      </ul>
+    </div>
+  </header>
+  <section class="register-section  container-1 mx-auto text-center py-5 sm:overflow-x-clip relative">
+    <div class=" lg:text-left lg:w-5/12 flex">
+      <h2 class="font-sans font-bold capitalize pl-4 text-clr-secondary md:hidden">Register</h2>
+
+    </div>
+    <div id="register" class="lg:flex lg:items-center text-left lg:justify-between lg:space-x-20 relative mt-10">
+
+      <!-- BLUR BULB -->
+      <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute lg:top-0 lg:left-20 top-28"></div>
+      <!-- COLOUR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:-top-5 -top-16 right-4 animate-pulse duration-200"><img
+          src="assets/images/star color.png" alt=""></div>
+      <div class="relative lg:w-6/12 flex-grow">
+
+        <img src="assets/images/register.png" class="relative z-10 lg:max-w-2xl min-w-80 min-h-72 mx-auto w-11/12"
+          alt="">
+        <!-- WHITE STAR -->
+        <div class="z-1 w-10 h-10 absolute lg:-bottom-14 bottom-52 left-52 animate-pulse duration-200"><img
+            src="assets/images/star white.png" alt=""></div>
+      </div>
+      <div
+        class="lg:w-1/2 relative md:bg-white md:bg-opacity-5 md:backdrop-blur-sm md:backdrop-filter h-full rounded-sm md:p-10 p-4 text-left z-10 shadow-md shadow-gray-900">
+        <h2 class="font-sans font-bold capitalize text-clr-secondary hidden md:block mt-1">Register</h2>
+        <div class="">
+          <p class="inline-block">Be part of this movement!</p>
+          <div class="relative inline-block">
+            <div class="flex absolute ml-5">
+              <img src="assets/images/girl.png" alt="">
+              <img src="assets/images/boy.png" alt="">
+            </div>
+            <p class="text-clr-secondary mt-3">...........................</p>
+          </div>
+          <h4 class="mt-0">CREATE YOUR ACCOUNT</h4>
+          <div class="">
+            <form action="https://backend.getlinked.ai/hackathon/registration" method="post"
+              class="grid grid-cols-2 gap-4 text-left place-content-center">
+              <fieldset class="col-span-2 md:col-span-1">
+                <label for="name" class="block">Team's Name</label>
+                <input type="text" name="team_name" placeholder="Enter the name of your group"
+                  class="bg-transparent border-2 border-white rounded-sm border-solid p-1 px-2 w-full placeholder:text-gray-600">
+              </fieldset>
+              <fieldset class="col-span-2 md:col-span-1">
+                <label for="phone" class="block">Phone</label>
+                <input type="text" name="phone_number" placeholder="Enter your phone number"
+                  class="bg-transparent border-2 border-white rounded-sm border-solid p-1 px-2 w-full placeholder:text-gray-600">
+              </fieldset>
+              <fieldset class="col-span-2 md:col-span-1">
+                <label for="email" class="block">Email</label>
+                <input type="email" name="email" placeholder="Enter your email"
+                  class="bg-transparent border-2 border-white rounded-sm border-solid p-1 px-2 w-full placeholder:text-gray-600">
+              </fieldset>
+              <fieldset class="col-span-2 md:col-span-1">
+                <label for="project" class="block">Project Topic</label>
+                <input type="text" name="project_topic" placeholder="What is your project topic"
+                  class="bg-transparent border-2 border-white rounded-sm border-solid p-1 px-2 w-full placeholder:text-gray-600">
+              </fieldset>
+              <fieldset class="">
+                <label for="category" class="block">Category</label>
+                <select name="category" id="category"
+                  class="bg-transparent border-2 border-white rounded-sm border-solid p-2 w-full">
+                  <option value="0" class="bg-clr-bg-primary" selected>Select your category</option>
+                  <option value="1" class="bg-clr-bg-primary">MOBILE</option>
+                  <option value="2" class="bg-clr-bg-primary">WEB</option>
+                  <option value="3" class="bg-clr-bg-primary">BACKEND</option>
+                </select>
+              </fieldset>
+              <fieldset class="">
+                <label for="group_size" class="block">Group Size</label>
+                <select name="group_size" id="group_size" min="1"
+                  class="bg-transparent border-2 border-white rounded-sm border-solid p-2 w-full">
+                  <option value="0" class="bg-clr-bg-primary" selected>Select</option>
+                  <option value="1" class="bg-clr-bg-primary">1</option>
+                  <option value="2" class="bg-clr-bg-primary">2</option>
+                  <option value="3" class="bg-clr-bg-primary">3</option>
+                  <option value="4" class="bg-clr-bg-primary">4</option>
+                  <option value="5" class="bg-clr-bg-primary">5</option>
+                  <option value="6" class="bg-clr-bg-primary">6</option>
+                  <option value="7" class="bg-clr-bg-primary">7</option>
+                  <option value="8" class="bg-clr-bg-primary">8</option>
+                  <option value="9" class="bg-clr-bg-primary">9</option>
+                  <option value="10" class="bg-clr-bg-primary">10</option>
+                </select>
+              </fieldset>
+              <div class="text-sm text-clr-tertiary italic col-span-2">Please review your registration details
+                bofore
+                submiting
+              </div>
+              <fieldset class="col-span-2">
+
+                <label for="term"> <input type="checkbox" name="privacy_policy_accepted" id="term" required> I agreed
+                  with the
+                  event
+                  terms and conditions and privacy policy </label>
+              </fieldset>
+
+              <button type="submit" class="submit-btn btn btn-primary col-span-2 mt-5">
+                Register Now
+              </button>
+            </form>
+          </div>
+
+        </div>
+        <!-- WHITE STAR -->
+        <div class="z-1 w-10 h-10 absolute lg:top-36 top-32 left-0 animate-pulse duration-200"><img
+            src="assets/images/star white.png" alt=""></div>
+
+      </div>
+      <!-- GREY STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:-bottom-20 bottom-52 right-80 animate-pulse duration-200"><img
+          src="assets/images/star grey.png" alt=""></div>
+      <!-- WHITE STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:bottom-80 -bottom-10 right-0 animate-pulse duration-200"><img
+          src="assets/images/star white.png" alt=""></div>
+      <!-- BLUR BULB -->
+      <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute -bottom-10 right-28">
+      </div>
+    </div>
+    <!-- SUCCESS -->
+    <div id="success"
+      class="success bg-clr-bg-primary bg-opacity-10 backdrop-blur-sm backdrop-filter border-2 border-solid border-clr-tertiary rounded-md p-4 absolute z-20 -top-32 left-1/2 w-11/12 max-w-screen-sm text-center scale-50 invisible">
+      <div class="relative">
+        <img src="assets/images/successfully-checker.png" alt="" class="inline-block w-1/2 absolute left-0">
+        <img src="assets/images/successful-man.png" alt="" class="inline-block w-1/2 ">
+      </div>
+      <p class="text-lg font-bold">Congratulations <br>You have successfully registered</p>
+      <p>Yes, it was easy and you did it! <br>
+        check your mailbox for next step🤣</p>
+      <button type="button" class="back-btn btn btn-primary w-full mt-5">
+        Back
+      </button>
+    </div>
+  </section>
+
+
+  <footer class="container-1 flex flex-wrap items-start justify-between mx-auto lg:mt-24 mt-48 relative">
+    <!-- COLOR STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:top-0 top-0 left-40 animate-pulse duration-200"><img
+        src="assets/images/star color.png" alt=""></div>
+    <!-- GREY STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:bottom-72 bottom-60 right-96 animate-pulse duration-200"><img
+        src="assets/images/star grey.png" alt=""></div>
+    <!-- WHITE STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:bottom-0 bottom-40 left-30 animate-pulse duration-200"><img
+        src="assets/images/star white.png" alt=""></div>
+    <div class="lg:w-2/4 mb-4">
+      <div class="mb-2">
+        <a href="index.html" class="text-white font-bold text-3xl font-sans">get<span
+            class="text-clr-secondary">linked</span>
+        </a>
+      </div>
+      <p class="lg:w-9/12 leading-8">GetLinked Tech Hackathon is a technology innovation program established by a group
+        of
+        organizations with the
+        aim of showcasing young and talented individuals in the field of technology</p>
+
+      <h5 class="mt5">Terms of Use <span class="border-clr-secondary border-l-2 border-solid pl-2">Privacy
+          Policy</span>
+      </h5>
+    </div>
+    <div class="lg:w-1/4 mb-4">
+      <h4 class="text-clr-secondary my-0">Useful Links </h4>
+      <ul>
+        <li class=" my-2"><a class=" hover:text-clr-primary ease-in duration-200" href="#timeline">Timeline</a></li>
+        <li class=" my-2"><a class=" hover:text-clr-primary ease-in duration-200" href="">Overview</a></li>
+        <li class=" my-2"><a class=" hover:text-clr-primary ease-in duration-200" href="#help">FAQs</a></li>
+        <li class=" my-2"><a class=" hover:text-clr-primary ease-in duration-200" href="contact.html">Register</a></li>
+      </ul>
+      <div class="h-1/4 my-1">
+        <h6 class="text-clr-secondary">Follow Us <span class="text-white">
+            <i
+              class="fa-brands fa-instagram fa-2x inline-block mx-1 hover:text-clr-primary ease-in duration-200 cursor-pointer"></i>
+            <i
+              class="fa-brands fa-x-twitter fa-2x inline-block mx-1 hover:text-clr-primary ease-in duration-200 cursor-pointer"></i>
+            <i
+              class="fa-brands fa-facebook-f fa-2x inline-block mx-1 hover:text-clr-primary ease-in duration-200 cursor-pointer"></i>
+            <i
+              class="fa-brands fa-linkedin-in fa-2x inline-block mx-1 hover:text-clr-primary ease-in duration-200 cursor-pointer"></i>
+          </span>
+        </h6>
+      </div>
+    </div>
+    <div class="lg:w-1/4 mb-4">
+      <h4 class="text-clr-secondary my-0">Contact Us</h4>
+      <ul>
+        <li class="my-4"><i class="fa-solid fa-phone-volume mr-3"></i> +234 8135227068</li>
+        <li class="my-5 mr-4"><i class="fa-solid fa-location-dot mr-5"></i>
+          27, Alara
+          Street, <br> Yaba
+          100012,
+          <br> Lagos.
+
+        </li>
+      </ul>
+    </div>
+    <div class=" w-full text-center mt-4">
+
+      <p class="">All rights reserved &copy; <span id="date" class="text-clr-secondary"> </span> getlinked Ltd.</p>
+    </div>
+    <!-- GREY STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:top-10 top-14 right-14 animate-pulse duration-200"><img
+        src="assets/images/star grey.png" alt=""></div>
+    <!-- WHITE STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:bottom-10 bottom-10 right-0 animate-pulse duration-200"><img
+        src="assets/images/star white.png" alt=""></div>
+  </footer>
+  <script src="./app.js"></script>
+</body>
+
+</html>
