@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GetLinked</title>
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="main.css">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="/public/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css">
+  <!-- Animation On Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <header class="relative z-10 border-b-2 border-b-white border-opacity-20">
+    <!-- NAV SECTION -->
+    <nav class="container-1 mx-auto flex justify-between items-center py-3 px-4 ">
+      <div>
+        <a href="index.html" class="text-white font-bold text-xl lg:text-2xl font-sans">get<span
+            class="text-clr-secondary">linked</span>
+        </a>
+      </div>
+      <div class="">
+        <ul class="hidden lg:flex items-center space-x-6 gap-7">
+          <li><a class=" hover:text-clr-primary ease-in duration-200" href="#timeline">Timeline</a></li>
+          <li><a class=" hover:text-clr-primary ease-in duration-200" href="">Overview</a></li>
+          <li><a class=" hover:text-clr-primary ease-in duration-200" href="#help">FAQs</a></li>
+          <li><a class=" hover:text-clr-primary ease-in duration-200" href="contact.html">Contact</a></li>
+
+
+          <li><a href="register.html" class="btn btn-primary">Register</a></li>
+        </ul>
+
+      </div>
+      <div id="menu-bar" class=" lg:hidden cursor-pointer">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </nav>
+    <div id="menu-items" class="hidden bg-clr-bg-primary mb-2">
+
+      <ul class=" block text-center">
+        <li class="menu-link mb-4"><a class=" hover:text-clr-primary ease-in duration-200 "
+            href="#timeline">Timeline</a></li>
+        <li class="menu-link mb-4"><a class=" hover:text-clr-primary ease-in duration-200 " href="">Overview</a></li>
+        <li class="menu-link mb-4"><a class=" hover:text-clr-primary ease-in duration-200 " href="#help">FAQs</a></li>
+        <li class="menu-link mb-4 "><a class=" hover:text-clr-primary ease-in duration-200 "
+            href="contact.html">Contact</a>
+        </li>
+
+        <li class=""><button class="menu-link btn  btn-primary">
+            <a href="register.html">Register</a>
+          </button></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <!-- HERO SECTION -->
+  <section class="hero-section container-1 mx-auto relative">
+
+    <div data-aos="fade-left"
+      class="text-center relative z-10 text-lg my-5 font-bold italic capitalize mx-auto lg:text-right lg:mr-20 lg:text-2xl max-w-3xl">
+      igniting a
+      revolution in <span class="relative">HR innovation
+        <img src="/images/Vector 4.png" class="absolute right-0 w-36">
+      </span>
+    </div>
+    <!-- BLUR BULB -->
+    <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute top-10 left-3"></div>
+    <!-- WHITE STAR -->
+    <div class="z-1 absolute top-10 left-20 animate-pulse duration-200"><img src="/images/star white.png" alt=""></div>
+    <!-- GREY STAR -->
+    <div class="z-1 absolute bottom-60 left-72 animate-pulse duration-200"><img src="/images/star grey.png" alt="">
+    </div>
+
+    <div class="hero lg:flex lg:items-center py-3 ">
+      <div data-aos="fade-right" class="hero-text relative z-10 text-center lg:text-left">
+
+        <h1 class="font-extrabold text-3xl mb-0 lg:text-6xl ">getlinkedTe<span class="relative"><img
+              src="/images/bulb.png" class="absolute -top-3 right-0" alt="bulb">c</span>h</h1>
+        <h1 class="font-extrabold text-3xl lg:text-6xl max-w-2xl lg:mt-5 relative">Hackathon <span
+            class="text-clr-secondary">1.0<img src="/images/chain.png" class="inline-block relative bottom-1 w-10 h-14"
+              alt="">
+            <img src="/images/blast.png" class="inline-block relative bottom-2 w-10 h-14 lg:bottom-2 z-10" alt="">
+
+          </span>
+        </h1>
+
+        <p class="max-w-lg mx-auto sm:w-72 lg:mx-0 lg:text-xl">Participate in getlinked tech Hackathon 2023 stand a
+          chance to
+          win a
+          Big price
+        </p>
+        <a href="register.html" class="btn btn-primary lg:mb-14 lg:mt-5 mb-0 inline-block"> Register</a>
+        <div class="timer lg:justify-start flex justify-center space-x-10 my-10">
+          <h1 class="font-sans text-6xl">00<span class="text_small">H</span></h1>
+          <h1 class="font-sans text-6xl">00<span class="text_small">M</span></h1>
+          <h1 class="font-sans text-6xl">00<span class="text_small">S</span></h1>
+        </div>
+      </div>
+      <div data-aos="fade-down" class="relative z-10">
+        <!-- GREY STAR -->
+        <div class="z-1 w-10 h-10 absolute lg:top-10 top-0 left-20 animate-pulse duration-200"><img
+            src="/images/star grey.png" alt=""></div>
+
+        <img src="/images/man-wearing-smart-glasses-touching-virtual-screen 1.png" class="" alt="">
+        <img src="/images/Image 1.png"
+          class="absolute z-10 lg:top-32 top-16 animate-ping duration-1000 ease-linear w-80 h-80" alt="">
+      </div>
+    </div>
+    <!-- BLUR BULB -->
+    <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute bottom-40 right-5"></div>
+  </section>
+  <!-- INTRODUCTION SECTION -->
+  <section
+    class="introduction-section container-1 mx-auto text-center lg:flex items-center lg:text-left justify-between space-x-7  p-5 relative ">
+
+    <div data-aos="zoom-in" class="lg:w-6/12">
+      <!-- COLOUR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:top-10 top-0 left-20 animate-pulse duration-200"><img
+          src="/images/star color.png" alt=""></div>
+      <img src="/images/The big idea.png" class="big-idea" alt="">
+      <img src="/images/arrow.png" class="mx-auto lg:mr-0" alt="">
+    </div>
+    <div data-aos="flip-right" class="lg:w-6/12 relative">
+      <h2 class="font-sans font-bold ">Introduction to getlinked
+        <br>
+        <span class="text-clr-secondary">tech Hackathon 1.0</span>
+      </h2>
+
+      <p class="leading-loose">Our tech hackathon is a melting pot of visionaries, and its
+        purpose is
+        as
+        clear as day: to shape the future. Whether you're a coding genius, a
+        design maverick, or a concept wizard, you'll have the chance to transform
+        your ideas into reality. Solving real-world problems, pushing the boundaries
+        of technology, and creating solutions that can change the world,
+        that's what we're all about!</p>
+      <!-- COLOUR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:top-10 -top-5 right-0 animate-pulse duration-200"><img
+          src="/images/star color.png" alt=""></div>
+    </div>
+  </section>
+  <div class="hr border-b-2 border-b-white border-opacity-10 "></div>
+  <!-- RULES SECTION -->
+  <section class="rules-section container-1 mx-auto text-center  py-5 relative  sm:overflow-x-clip flow-root
+  ">
+    <div class="relative lg:w-6/12 float-right">
+      <!-- HEAD BULB -->
+      <div class="w-28 h-24 bg-gradient-to-r to-clr-primary from-clr-secondary rounded-full absolute top-24 right-48">
+      </div>
+      <!-- GREY STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:top-10 top-0 left-10 lg:-left-96 animate-pulse duration-200"><img
+          src="/images/star grey.png" alt=""></div>
+      <div data-aos="zoom-out" class="relative z-10 ">
+        <img src="/images/rule.png" class="big-idea lg:max-w-xl min-w-56 min-h-48" alt="">
+      </div>
+      <!-- BLUR BULB -->
+      <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute -bottom-10 -right-28">
+      </div>
+      <!-- WHITE STAR -->
+      <div class="z-1 absolute lg:bottom-10 -bottom-20 left-16 animate-pulse duration-200"><img
+          src="/images/star white.png" alt="">
+      </div>
+    </div>
+    <div class="relative float-right lg:w-6/12">
+      <!-- BLUR BULB -->
+      <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute top-28 left-20 "></div>
+      <div data-aos="slide-right" class="relative z-10 lg:text-left">
+        <h2 class="font-sans font-bold ">Rules and
+          <br>
+          <span class="text-clr-secondary">Guidelines</span>
+        </h2>
+        <p class=" leading-loose mx-auto w-10/12 lg:ml-0">Our tech hackathon is a melting pot of visionaries, and its
+          purpose
+          is as
+          clear as day: to shape the future. Whether you're a coding genius, a
+          design maverick, or a concept wizard, you'll have the chance to transform
+          your ideas into reality. Solving real-world problems, pushing the boundaries
+          of technology, and creating solutions that can change the world,
+          that's what we're all about!</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="hr border-b-2 border-b-white border-opacity-10 clear-both"></div>
+
+  <!-- JUDGE SECTION -->
+  <section
+    class="judge-section  container-1 mx-auto text-center lg:flex lg:items-center lg:text-left lg:justify-between lg:space-x-20  py-5 sm:overflow-x-clip">
+    <div data-aos="fade-down-right" class="relative lg:w-7/12 flex-grow">
+      <!-- BLUR BULB -->
+      <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute lg:top-64 lg:left-20 top-32"></div>
+      <!-- HEAD BULB -->
+      <div
+        class="w-28 h-24 bg-gradient-to-r to-clr-primary from-clr-secondary rounded-full absolute lg:left-24 lg:top-1 left-20">
+      </div>
+      <!-- COLOUR STAR -->
+      <div class="z-1 w-10 h-10 absolute -top-5 left-10 animate-pulse duration-200"><img src="/images/star color.png"
+          alt=""></div>
+      <img src="/images/judge.png" class="relative z-10 mx-auto" alt="">
+      <!-- GREY STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:bottom-28 bottom-0 right-40 lg:right-72 animate-pulse duration-200"><img
+          src="/images/star grey.png" alt=""></div>
+    </div>
+    <div class="lg:w-5/12 relative">
+      <!-- WHITE STAR -->
+      <div class="z-1 absolute lg:bottom-10 bottom-10 lg:-left-20 left-1 animate-pulse duration-200"><img
+          src="/images/star white.png" alt="">
+      </div>
+      <h2 class="font-sans font-bold">Judging Criteria
+        <br>
+        <span class="text-clr-secondary">Key attributes</span>
+      </h2>
+      <p data-aos="slide-left" class="w-11/12 mx-auto leading-6 max-w-lg lg:mx-0"><span
+          class="text-clr-tertiary capitalize">innovation and
+          creativity:
+        </span>Evaluate the
+        uniqueness and
+        creativity of
+        the solution. Consider
+        whether it addresses a real-world problem in a novel way or introduces innovative features.</p>
+      <p data-aos="slide-right" class="w-11/12 mx-auto leading-6 max-w-lg lg:mx-0"><span
+          class="text-clr-tertiary capitalize">functionality:
+        </span>Assess how
+        well the solution
+        works. Does it
+        perform its
+        intended functions
+        effectively and without major issues? Judges would consider the completeness and robustness of the solution.
+      </p>
+      <p data-aos="slide-left" class="w-11/12 mx-auto leading-6 max-w-lg lg:mx-0"><span
+          class="text-clr-tertiary capitalize">impact and
+          relevance:
+        </span>Determine the potential
+        impact of the
+        solution
+        in the real world. Does it
+        address a significant problem, and is it relevant to the target audience? Judges would assess the potential
+        social, economic, or environmental benefits</p>
+      <p data-aos="slide-right" class="w-11/12 mx-auto leading-6 max-w-lg lg:mx-0"><span
+          class="text-clr-tertiary capitalize">technical
+          complexity:
+        </span>Evaluate the technical
+        sophistication
+        of the
+        solution. Judges would
+        consider the complexity of the code, the use of advanced technologies or algorithms, and the scalability of
+        the solution.</p>
+      <p data-aos="slide-left" class="w-11/12 mx-auto leading-6 max-w-lg lg:mx-0"><span
+          class="text-clr-tertiary capitalize">adherence to
+          hackathon
+          rules:
+        </span>Judges
+        will
+        ensure
+        that the
+        team adhered
+        to the rules and guidelines of the hackathon, including deadlines, use of specific technologies or APIs and
+        any other competition-specific requirements.</p>
+      <button data-aos="zoom-in-up" class="mx-auto lg:mx-0 my-5">
+        <a href="" class="btn btn-primary">read more</a>
+      </button>
+      <!-- BLUR BULB -->
+      <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute -bottom-10 -right-48">
+      </div>
+    </div>
+  </section>
+  <div class="hr border-b-2 border-b-white border-opacity-10 "></div>
+  <!-- HELP -->
+  <section id="help"
+    class=" container mx-auto text-center lg:flex lg:items-center lg:text-left lg:justify-between lg:space-x-7 pb-5">
+
+    <div class="lg:w-6/12 relative">
+      <h2 class="font-sans font-bold capitalize">frequently ask <br> <span
+          class="text-clr-secondary capitalize">question</span></h2>
+      <p class="w-9/12 mx-auto lg:ml-0 leading-7">We got answers to the questions that you might
+        want to ask about getlinked Hackathon 1.0</p>
+      <!-- COLOUR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:top-0 top-0 left-0 animate-pulse duration-200"><img
+          src="/images/star color.png" alt=""></div>
+      <div id="accordion">
+        <ul class="w-9/12 mx-auto lg:ml-0 leading-7 text-left">
+          <li class="border-b-2 border-clr-primary border-solid">
+            <label for="first" class="my-2 flex items-end  justify-between cursor-pointer">Can I work on a project I
+              started
+              before the
+              hackathon? <span class="text-clr-primary font-bold text-2xl">+</span></label>
+            <input type="radio" id="first" name="accordion" class="hidden">
+            <div class="content overflow-hidden max-h-0 transition-all  text-clr-primary">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat fuga magni inventore amet rem,
+                obcaecati animi qui necessitatibus officiis laudantium!</p>
+            </div>
+          </li>
+          <li data-aos="zoom-out-down" class="border-b-2 border-clr-primary border-solid">
+            <label for="second" class="my-2 flex items-end  justify-between cursor-pointer">What happens if I need help
+              during the
+              hackathon? <span class="text-clr-primary font-bold text-2xl">+</span></label>
+            <input for="second" type="radio" id="second" name="accordion" class="hidden">
+            <div class="content overflow-hidden max-h-0 transition-all text-clr-primary">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat fuga magni inventore amet rem,
+                obcaecati animi qui necessitatibus officiis laudantium!</p>
+            </div>
+          </li>
+          <li data-aos="zoom-out-down" class="border-b-2 border-clr-primary border-solid">
+            <label for="third" class="my-2 flex items-end  justify-between cursor-pointer">What happen if I dont have an
+              idea for a
+              project? <span class="text-clr-primary font-bold text-2xl">+</span></label>
+            <input type="radio" id="third" name="accordion" class="hidden">
+            <div class="content overflow-hidden max-h-0 transition-all text-clr-primary">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat fuga magni inventore amet rem,
+                obcaecati animi qui necessitatibus officiis laudantium!</p>
+            </div>
+          </li>
+          <li data-aos="zoom-out-down" class="border-b-2 border-clr-primary border-solid">
+            <label for="fourth" class="my-2 flex items-end  justify-between cursor-pointer">Can I join a team or do I
+              have
+              to come with
+              one? <span class="text-clr-primary font-bold text-2xl">+</span></label>
+            <input type="radio" id="fourth" name="accordion" class="hidden">
+            <div class="content overflow-hidden max-h-0 transition-all text-clr-primary">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat fuga magni inventore amet rem,
+                obcaecati animi qui necessitatibus officiis laudantium!</p>
+            </div>
+          </li>
+          <li data-aos="zoom-out-down" class="border-b-2 border-clr-primary border-solid">
+            <label for="fifth" class="my-2 flex items-end justify-between cursor-pointer">What happens after the
+              hackathon ends? <span class="text-clr-primary font-bold text-2xl">+</span></label>
+            <input type="radio" id="fifth" name="accordion" class="hidden">
+            <div class="content overflow-hidden max-h-0 transition-all text-clr-primary">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat fuga magni inventore amet rem,
+                obcaecati animi qui necessitatibus officiis laudantium!</p>
+            </div>
+          </li>
+          <li data-aos="zoom-out-down" class="border-b-2 border-clr-primary border-solid">
+            <label for="sixth" class="my-2 flex items-end justify-between cursor-pointer">Can I work on a project I
+              started
+              before the
+              hackathon? <span class="text-clr-primary font-bold text-2xl">+</span></label>
+            <input type="radio" id="sixth" name="accordion" class="hidden">
+            <div class="content overflow-hidden max-h-0 transition-all text-clr-primary">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat fuga magni inventore amet rem,
+                obcaecati animi qui necessitatibus officiis laudantium!</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="relative lg:w-6/12 flex-grow mt-20">
+      <!-- COLOUR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:top-36 top-0 left-20 animate-pulse duration-200"><img
+          src="/images/star color.png" alt=""></div>
+      <!-- COLOUR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:top-5 top-16 right-64 animate-pulse duration-200"><img
+          src="/images/star color.png" alt=""></div>
+
+      <img data-aos="zoom-in-down" src="/images/question-mark.png"
+        class="animate-bounce duration-75 ease-in-out absolute left-10 w-8 h-12 lg:left-20" alt="">
+      <img data-aos="zoom-in-down" src="/images/question-mark.png"
+        class="animate-bounce duration-75 ease-in-out absolute -top-8 left-24 lg:left-44" alt="">
+      <img data-aos="zoom-in-down" src="/images/question-mark.png"
+        class="animate-bounce duration-75 ease-in-out absolute right-36 w-8 h-12 lg:right-60" alt="">
+      <img data-aos="slide-up" src="/images/cwok_casual_21 1.png" class="" alt="">
+      <!-- WHITE STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:bottom-10 -bottom-5 right-0 animate-pulse duration-200"><img
+          src="/images/star white.png" alt=""></div>
+      <!-- GREY STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:bottom-40 -bottom-5 left-0 animate-pulse duration-200"><img
+          src="/images/star grey.png" alt=""></div>
+    </div>
+  </section>
+  <div class="hr border-b-2 border-b-white border-opacity-10 "></div>
+
+  <!-- TIMELINE -->
+  <section class="container-1 mx-auto text-center py-5">
+    <h2 data-aos="zoom-out-down" class="font-sans font-bold capitalize">Timeline</h2>
+    <p data-aos="zoom-in-right" class="w-80 lg:w-96 mx-auto">Here is the breakdown of the time we
+      anticipate using for the upcoming event.</p>
+    <div data-aos="slide-down" class="main-time">
+      <!-- COLOUR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:-top-5 -top-10 left-24 animate-pulse duration-200"><img
+          src="/images/star color.png" alt=""></div>
+      <div class="timeline text-left">
+        <div data-aos="fade-down-right" class="timeline-heading left-timeline">
+          <h4 class="title text-clr-secondary font-bold">Hackathon Announcement</h4>
+          <p class="">The getlinked tech hackathon 1.0 is formally announced to the general public and teams
+            begin to get ready
+            to
+            register</p>
+        </div>
+
+        <div data-aos="slide-left"
+          class="number border-4 border-solid border-clr-bg-primary bg-gradient-to-r from-clr-secondary to-clr-primary w-10 h-10 rounded-full  text-center">
+          1</div>
+        <p data-aos="slide-left" class="date right-timeline font-bold text-clr-secondary">November 18, 2023
+        </p>
+      </div>
+      <div class="timeline text-left">
+        <div data-aos="fade-down-left" class="timeline-heading right-timeline">
+
+          <h4 class="title text-clr-secondary font-bold">Teams Registration begins</h4>
+          <p>Interested teams can now show their interest
+            in the getlinked tech hackathon 1.0 2023 by
+            proceeding to register</p>
+        </div>
+        <div data-aos="slide-right"
+          class="number border-4 border-solid border-clr-bg-primary bg-gradient-to-r from-clr-secondary to-clr-primary w-10 h-10 rounded-full  text-center">
+          2</div>
+        <p data-aos="slide-right" class="date left-timeline font-bold text-clr-secondary">November 18, 2023</p>
+      </div>
+      <div class="timeline text-left">
+        <div data-aos="fade-down-right" class="timeline-heading left-timeline">
+
+          <h4 class="title text-clr-secondary font-bold">Teams Registration ends</h4>
+          <p>Interested Participants are no longer Allowed
+            to register</p>
+        </div>
+        <div data-aos="slide-left"
+          class="number border-4 border-solid border-clr-bg-primary bg-gradient-to-r from-clr-secondary to-clr-primary w-10 h-10 rounded-full  text-center">
+          3</div>
+        <p data-aos="slide-left" class="date right-timeline font-bold text-clr-secondary">November 18, 2023</p>
+      </div>
+      <div class="timeline text-left">
+        <div data-aos="fade-down-left" class="timeline-heading right-timeline">
+
+          <h4 class="title text-clr-secondary font-bold">Announcement of the accepted teams
+            and ideas</h4>
+          <p>All teams whom idea has been accepted into
+            getlinked tech hackathon 1.0 2023 are formally
+            announced</p>
+        </div>
+        <div data-aos="slide-right"
+          class="number border-4 border-solid border-clr-bg-primary bg-gradient-to-r from-clr-secondary to-clr-primary w-10 h-10 rounded-full  text-center">
+          4</div>
+        <p data-aos="slide-right" class="date left-timeline font-bold text-clr-secondary">November 18, 2023</p>
+      </div>
+      <div class="timeline text-left">
+        <div data-aos="fade-down-right" class="timeline-heading left-timeline">
+
+          <h4 class="title text-clr-secondary font-bold">Getlinked Hackathon 1.0 Officially Begins</h4>
+          <p>Accepted teams can now proceed to build
+            their ground breaking skill driven solutions</p>
+        </div>
+        <div data-aos="slide-left"
+          class="number border-4 border-solid border-clr-bg-primary bg-gradient-to-r from-clr-secondary to-clr-primary w-10 h-10 rounded-full  text-center">
+          5</div>
+        <p data-aos="slide-left" class="date right-timeline font-bold text-clr-secondary">November 18, 2023</p>
+      </div>
+      <div class="timeline text-left">
+        <div data-aos="fade-down-left" class="timeline-heading right-timeline">
+
+          <h4 class="title text-clr-secondary font-bold">Demo Day</h4>
+          <p>Teams get the opportunity to pitch their
+            projects to judges. The winner of the
+            hackathon will also be announced on this day</p>
+        </div>
+        <div data-aos="slide-right"
+          class="number border-4 border-solid border-clr-bg-primary bg-gradient-to-r from-clr-secondary to-clr-primary w-10 h-10 rounded-full  text-center">
+          6</div>
+        <p data-aos="slide-right" class="date left-timeline font-bold text-clr-secondary">November 18, 2023</p>
+      </div>
+      <!-- WHITE STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:bottom-60 bottom-52 right-0 animate-pulse duration-200"><img
+          src="/images/star white.png" alt=""></div>
+      <!-- GREY STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:bottom-0 -bottom-5 left-0 animate-pulse duration-200"><img
+          src="/images/star grey.png" alt=""></div>
+    </div>
+  </section>
+  <div class="hr border-b-2 border-b-white border-opacity-10 "></div>
+  <!-- PRIZES SECTION -->
+  <section class="prize-section  container-1 mx-auto text-center   py-5 sm:overflow-x-clip">
+    <div class=" lg:text-left float-right lg:w-5/12">
+      <h2 class="font-sans font-bold capitalize">prizes and <br> <span
+          class="text-clr-secondary capitalize">reward</span></h2>
+      <p class="w-10/12 mx-auto lg:ml-0 leading-7">Highlight of the prizes or rewards for winner and participants</p>
+    </div>
+    <div class="lg:flex lg:items-center lg:text-left lg:justify-between lg:space-x-20 clear-both relative">
+
+      <!-- BLUR BULB -->
+      <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute lg:top-0 lg:left-20 top-28"></div>
+      <!-- COLOUR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:-top-5 -top-24 left-24 animate-pulse duration-200"><img
+          src="/images/star color.png" alt=""></div>
+      <div class="relative lg:w-6/12 flex-grow">
+
+        <img data-aos="zoom-out-up" src="/images/reward.png"
+          class="relative z-10 lg:max-w-2xl min-w-80 min-h-72 mx-auto w-11/12" alt="">
+        <!-- WHITE STAR -->
+        <div class="z-1 w-10 h-10 absolute lg:-bottom-14 bottom-52 left-52 animate-pulse duration-200"><img
+            src="/images/star white.png" alt=""></div>
+      </div>
+      <div class="lg:w-6/12 relative flex space-x-4 items-center text-center justify-center mt-32 mx-auto w-11/12">
+
+        <div data-aos="zoom-in-up" data-aos-delay="100"
+          class="border-2 border-solid rounded-md border-clr-secondary w-4/12 relative bg-clr-secondary bg-opacity-20 lg:h-64">
+          <img src="/images/silver_medal 1.png" alt="" class="absolute lg:-top-20 -top-16">
+          <div class="relative top-1/4 mx-auto">
+
+            <h5 class="font-bold text-2xl">2nd <br> <span class=" text-lg tracking-wider">Runner</span></h5>
+            <h5 class="text-clr-primary font-bold mt-0 ">N300,000</h5>
+          </div>
+
+        </div>
+
+        <div data-aos="zoom-in-up" data-aos-delay="150"
+          class="border-2 border-solid rounded-md border-clr-primary w-4/12 lg:h-72 relative pt-4 bg-clr-primary bg-opacity-20">
+          <img src="/images/gold_medal 1.png" alt=""
+            class="absolute -top-1/2 w-fit h-40 lg:h-64 animate-bounce duration-75 ease-in-out">
+          <div class="relative top-1/4 mx-auto">
+
+            <h5 class="font-bold text-2xl">1st <br> <span class=" text-lg tracking-wider">Runner</span></h5>
+            <h5 class="text-clr-primary font-bold mt-0 ">N400,000</h5>
+          </div>
+        </div>
+        <!-- WHITE STAR -->
+        <div class="z-1 w-10 h-10 absolute lg:-top-36 -top-32 left-0 animate-pulse duration-200"><img
+            src="/images/star white.png" alt=""></div>
+        <div data-aos="zoom-in-up" data-aos-delay="50"
+          class="border-2 border-solid rounded-md border-clr-secondary  w-4/12 lg:h-64 relative bg-clr-secondary bg-opacity-20">
+          <img src="/images/bronze_medal 1.png" alt="" class="absolute lg:-top-20 -top-16">
+          <div class="relative top-1/4 mx-auto">
+
+            <h5 class="font-bold text-2xl">3rd <br> <span class=" text-lg tracking-wider">Runner</span></h5>
+            <h5 class="text-clr-primary font-bold mt-0 ">N150,000</h5>
+          </div>
+
+
+
+        </div>
+        <!-- GREY STAR -->
+        <div class="z-1 w-10 h-10 absolute lg:-bottom-10 bottom-52 right-40 animate-pulse duration-200"><img
+            src="/images/star grey.png" alt=""></div>
+        <!-- WHITE STAR -->
+        <div class="z-1 w-10 h-10 absolute lg:bottom-80 -bottom-10 right-0 animate-pulse duration-200"><img
+            src="/images/star white.png" alt=""></div>
+        <!-- BLUR BULB -->
+        <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute -bottom-10 -right-48">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS  -->
+  <section class="container-1 mx-auto text-center py-5 relative">
+    <div class="relative z-10">
+      <h2 class="font-sans font-bold">Partners and Sponsors</h2>
+
+      <p class="lg:w-2/5 mx-auto">Getlinked Hackathon 1.0 is honored to have the following major companies as it's
+        partners
+        and
+        sponsors</p>
+    </div>
+    <!-- BLUR BULB -->
+    <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute lg:top-0 lg:left-20 top-10"></div>
+    <!-- COLOR STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:top-20 top-52 left-40 animate-pulse duration-200"><img
+        src="/images/star color.png" alt=""></div>
+    <div
+      class="border-clr-secondary border-solid lg:border-4 border-2 rounded-md flex justify-center items-center lg:p-20 py-10 w-11/12 lg:w-full mx-auto">
+      <div
+        class="bg-clr-bg-primary lg:h-7 lg:w-7 lg:left-96 lg:ml-9 lg:mb-6 rounded-full w-4 h-4 right-52 mr-5 mt-6 absolute z-20">
+      </div>
+      <div
+        class="bg-clr-bg-primary lg:h-7 lg:w-7 lg:right-96 lg:mr-40 lg:mb-6 rounded-full w-4 h-4 right-28 mr-8 mt-6 absolute z-20 ">
+      </div>
+      <!-- TABLE -->
+      <table class="border-collapse border-none lg:w-3/4 w-9/12 relative z-10 mx-auto">
+
+
+        <tr class="lg:border-b-4 border-b-2 border-clr-secondary border-solid relative">
+          <!-- COLOR STAR -->
+          <div class="z-1 w-10 h-10 absolute lg:top-60 top-52 left-80 animate-pulse duration-200"><img
+              src="/images/star color.png" alt=""></div>
+          <td data-aos="zoom-out" class="lg:pb-3"><img src="/images/Liberty company logo white colour.png" alt=""
+              class="w-3/4 lg:w-fit mx-auto">
+          </td>
+          <td data-aos="zoom-out" class="lg:border-x-4 border-x-2 border-clr-secondary border-solid"><img
+              src="/images/Liberty company logo white.png" alt="" class="w-3/4 mx-auto"></td>
+          <td data-aos="zoom-out" class="pb-3"><img src="/images/Winwise logo White colour 1.png" alt=""
+              class="w-3/4 lg:w-fit mx-auto">
+          </td>
+        </tr>
+        <tr>
+          <td data-aos="zoom-in" class="pt-3"><img src="/images/wisper logo white.png" alt="" class="w-3/4 mx-auto">
+          </td>
+          <td data-aos="zoom-in" class="lg:border-x-4 border-x-2 border-clr-secondary border-solid"><img
+              src="/images/Paybox.png" alt="" class="w-3/4 mx-auto"></td>
+          <td data-aos="zoom-in"><img src="/images/Vizual Plus.png" alt="" class="w-3/4 lg:w-fit mx-auto"></td>
+        </tr>
+        <!-- WHITE STAR -->
+        <div class="z-1 w-10 h-10 absolute lg:bottom-28 -bottom-10 right-96 animate-pulse duration-200"><img
+            src="/images/star white.png" alt=""></div>
+      </table>
+
+      <!-- BLUR BULB -->
+      <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute -bottom-8 -right-48">
+      </div>
+    </div>
+
+
+  </section>
+  <!-- PRIVACY  -->
+  <section
+    class="container-1 mx-auto py-5 sm:overflow-x-clip lg:flex space-x-20 justify-between lg:text-left text-center relative">
+    <div class="lg:w-1/2 relative z-10">
+      <h2 class="font-sans font-bold">Privacy Policy and <br><span class="text-clr-secondary">Terms</span></h2>
+      <!-- GREY STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:top-10 top-20 left-80 animate-pulse duration-200"><img
+          src="/images/star grey.png" alt=""></div>
+      <!-- COLOR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:top-40 top-1 right-36 animate-pulse duration-200"><img
+          src="/images/star color.png" alt=""></div>
+      <p class="text-gray-500">Last updated on September 12, 2023</p>
+      <p class="lg:w-9/12 ">Below are our privacy & policy, which outline a
+        lot of goodies. it’s our aim to always take of our
+        participant</p>
+      <div data-aos="zoom-in-right"
+        class="border-clr-secondary border-solid border-2 rounded-md lg:p-16 p-5 w-80 lg:w-full mx-auto">
+        <p class="lg:text-left">
+          At getlinked tech Hackathon 1.0, we
+          value your privacy and are committed
+          to protecting your personal information.
+          This Privacy Policy outlines how we collect,
+          use, disclose, and safeguard your data
+          when you participate in our tech hackathon
+          event. By participating in our event, you
+          consent to the practices described in this
+          policy.
+        </p>
+        <h5 class="mb-0 text-clr-secondary font-bold text-left">Licensing Policy</h5>
+        <h5 class="mt-1 font-bold text-left">Here are terms of our standard license </h5>
+        <ul class="list-image-[url(/Images/list-terms.svg)] list-inside text-left">
+          <li class="mt-5">The standard license grants a non-exclusive you right to navigate and
+            register for
+            our event
+          </li>
+
+          <li class="mt-5">You are license to use items available at any free source sites, for your project
+            development
+          </li>
+        </ul>
+        <button class="btn btn-primary mt-4">Read More</button>
+      </div>
+      <!-- COLOR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:bottom-40 bottom-5 left-0 animate-pulse duration-200"><img
+          src="/images/star color.png" alt=""></div>
+    </div>
+    <!-- BLUR BULB -->
+    <div class="bg-clr-primary z-1 w-60 h-60 rounded-full blur-3xl absolute bottom-32 -left-10">
+    </div>
+    <div class="relative lg:w-1/2 mx-auto">
+      <!-- GREY STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:top-10 top-24 left-80 animate-pulse duration-200"><img
+          src="/images/star grey.png" alt=""></div>
+      <!-- WHITE STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:top-40 top-1 right-36 animate-pulse duration-200"><img
+          src="/images/star white.png" alt=""></div>
+      <img data-aos="slide-down" src="/images/Vector.png" alt="" class="relative right-5 top-16">
+      <img data-aos="zoom-in-up" src="/images/privacy.png" alt=""
+        class="absolute lg:top-56 lg:right-32 top-40 right-10">
+      <!-- COLOR STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:bottom-80 bottom-0 left-20 animate-pulse duration-200"><img
+          src="/images/star color.png" alt=""></div>
+      <!-- GREY STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:bottom-10 bottom-14 right-14 animate-pulse duration-200"><img
+          src="/images/star grey.png" alt=""></div>
+      <!-- WHITE STAR -->
+      <div class="z-1 w-10 h-10 absolute lg:bottom-40 bottom-40 left-0 animate-pulse duration-200"><img
+          src="/images/star white.png" alt=""></div>
+    </div>
+  </section>
+  <footer class="container-1 flex flex-wrap items-start justify-between mx-auto lg:mt-24 mt-48 relative">
+    <!-- COLOR STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:top-0 top-0 left-40 animate-pulse duration-200"><img
+        src="/images/star color.png" alt=""></div>
+    <!-- GREY STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:bottom-72 bottom-60 right-96 animate-pulse duration-200"><img
+        src="/images/star grey.png" alt=""></div>
+    <!-- WHITE STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:bottom-0 bottom-40 left-30 animate-pulse duration-200"><img
+        src="/images/star white.png" alt=""></div>
+    <div class="lg:w-2/4 mb-4">
+      <div class="mb-2">
+        <a href="index.html" class="text-white font-bold text-3xl font-sans">get<span
+            class="text-clr-secondary">linked</span>
+        </a>
+      </div>
+      <p class="lg:w-9/12 leading-8">GetLinked Tech Hackathon is a technology innovation program established by a group
+        of
+        organizations with the
+        aim of showcasing young and talented individuals in the field of technology</p>
+
+      <h5 class="mt5">Terms of Use <span class="border-clr-secondary border-l-2 border-solid pl-2">Privacy
+          Policy</span>
+      </h5>
+    </div>
+    <div class="lg:w-1/4 mb-4">
+      <h4 class="text-clr-secondary my-0">Useful Links </h4>
+      <ul>
+        <li class=" my-2"><a class=" hover:text-clr-primary ease-in duration-200" href="#timeline">Timeline</a></li>
+        <li class=" my-2"><a class=" hover:text-clr-primary ease-in duration-200" href="">Overview</a></li>
+        <li class=" my-2"><a class=" hover:text-clr-primary ease-in duration-200" href="#help">FAQs</a></li>
+        <li class=" my-2"><a class=" hover:text-clr-primary ease-in duration-200" href="contact.html">Register</a></li>
+      </ul>
+      <div class="h-1/4 my-1">
+        <h6 class="text-clr-secondary">Follow Us <span class="text-white">
+            <i
+              class="fa-brands fa-instagram fa-2x inline-block mx-1 hover:text-clr-primary ease-in duration-200 cursor-pointer"></i>
+            <i
+              class="fa-brands fa-x-twitter fa-2x inline-block mx-1 hover:text-clr-primary ease-in duration-200 cursor-pointer"></i>
+            <i
+              class="fa-brands fa-facebook-f fa-2x inline-block mx-1 hover:text-clr-primary ease-in duration-200 cursor-pointer"></i>
+            <i
+              class="fa-brands fa-linkedin-in fa-2x inline-block mx-1 hover:text-clr-primary ease-in duration-200 cursor-pointer"></i>
+          </span>
+        </h6>
+      </div>
+    </div>
+    <div class="lg:w-1/4 mb-4">
+      <h4 class="text-clr-secondary my-0">Contact Us</h4>
+      <ul>
+        <li class="my-4"><i class="fa-solid fa-phone-volume mr-3"></i> +234 8135227068</li>
+        <li class="my-5 mr-4"><i class="fa-solid fa-location-dot mr-5"></i>
+          27, Alara
+          Street, <br> Yaba
+          100012,
+          <br> Lagos.
+
+        </li>
+      </ul>
+    </div>
+    <div class=" w-full text-center mt-4">
+
+      <p class="">All rights reserved &copy; <span id="date" class="text-clr-secondary"> </span> getlinked Ltd.</p>
+    </div>
+    <!-- GREY STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:top-10 top-14 right-14 animate-pulse duration-200"><img
+        src="/images/star grey.png" alt=""></div>
+    <!-- WHITE STAR -->
+    <div class="z-1 w-10 h-10 absolute lg:bottom-10 bottom-10 right-0 animate-pulse duration-200"><img
+        src="/images/star white.png" alt=""></div>
+  </footer>
+  <script src="./app.js"></script>
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
